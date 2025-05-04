@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load model
-with open('Realestate.sav', 'rb') as model_file:
+with open('real.sav', 'rb') as model_file:
     model = pickle.load(model_file)
 
 st.set_page_config(page_title="Prediksi Harga Properti", layout="centered")
