@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load model
-model = pickle.load(open('Klasifikasi_JJJ.sav', 'rb'))
+model = pickle.load(open('real.sav', 'rb'))
 
 st.set_page_config(page_title="Prediksi Harga Properti", layout="centered")
 st.title("Aplikasi Prediksi Harga Properti")
